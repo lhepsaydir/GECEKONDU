@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+
+body {
+  padding: 12px;
+  font-family: 'Lora', serif;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.info_wrapper {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+  width: 25%;
+  background-color: white;
+}
