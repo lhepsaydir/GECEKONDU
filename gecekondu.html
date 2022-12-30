@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <main>
+      <div class="topnav">
+        <a class="active" href="./index.html">Home</a>
+        <a href="./gecekondu.html">Gecekondu</a>
+        <a href="./kahve.html">Kahvehane</a>
+        <a href="./altin_gun.html">Altin Gunu</a>
+        <a href="./yap_sat.html">Yap Sat</a>
+      </div>
+
+      <h1>The Gecekondu</h1>
+      <div class="wrapper">
+        <img src="./assets/main_img/gecekondu.jpg" alt="Workplace" usemap="#workmap">
+        <map name="workmap" id="workmap">
+          <area shape="circle" coords="651,385,20" alt="Computer" id="cabbage">
+          <area shape="circle" coords="190,52,20" alt="Computer" id="bookshelf">
+        </map>
+  
+        <div class="info_wrapper">
+          <div id="cabbage_popover" class="hide">
+            <p>CABBAGE</p>
+          </div>
+    
+          <div id="bookshelf_popover" class="hide">
+            <h1>Bookshelf</h1>
+            <p>this is the text</p>
+            <img src="./assets/sub_image/duvets.JPG" style="height: 200px; width: auto;"/>
+          </div>
+
+        </div>
+      </div>
+    </main>
+	<script src="index.js"></script>
+  </body>
+</html>
