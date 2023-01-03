@@ -1,0 +1,2 @@
+addEventListeners('cabbage');
+addEventListeners('bookshelf');
