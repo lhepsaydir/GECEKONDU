@@ -1,21 +1,21 @@
-var cabbage = document.getElementById('cabbage');
-cabbage.addEventListener('mouseover', showElement, false);
-cabbage.addEventListener('mouseout', hideElement, false);
+addEventListeners('cabbage');
+addEventListeners('bookshelf');
 
-var bookshelf = document.getElementById('bookshelf');
-bookshelf.addEventListener('mouseover', showElement, false);
-bookshelf.addEventListener('mouseout', hideElement, false);
+function addEventListeners(elem) {
+  const element = document.getElementById(elem);
+  element.addEventListener('mouseover', showElement, false);
+  element.addEventListener('mouseout', hideElement, false);
+}
 
 function showElement(e) {
-  findMouseCoords();
-  var clickedBtnId = e.target.id;
+  var hoveredItemId = e.target.id;
 
-  if (clickedBtnId === "cabbage") {
+  if (hoveredItemId === "cabbage") {
     var element = document.getElementById("cabbage_popover");
 
     element.classList.remove("hide");
     element.classList.add("show");
-  } else if (clickedBtnId === "bookshelf") {
+  } else if (hoveredItemId === "bookshelf") {
     var element = document.getElementById("bookshelf_popover");
 
     element.classList.remove("hide");
@@ -25,21 +25,18 @@ function showElement(e) {
 }
 
 function hideElement(e) {
-  var clickedBtnId = e.target.id;
+  var hoveredItemId = e.target.id;
 
-  if (clickedBtnId === "cabbage") {
+  if (hoveredItemId === "cabbage") {
     var element = document.getElementById("cabbage_popover");
 
     element.classList.remove("show");
     element.classList.add("hide");
-  } else if (clickedBtnId === "bookshelf") {
+  } else if (hoveredItemId === "bookshelf") {
     var element = document.getElementById("bookshelf_popover");
 
     element.classList.remove("show");
     element.classList.add("hide");
   }
   e.stopPropagation();
-}
-
-function findMouseCoords() {
 }
