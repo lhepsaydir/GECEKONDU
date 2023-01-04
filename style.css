@@ -83,6 +83,7 @@ a:hover {
 }
 
 .homepage_descriptions_wrapper {
-  width: 100%;
+  width: 80%;
   text-align: justify;
+  padding-top: 12px;
 }
