@@ -1,2 +1,15 @@
 addEventListeners('cabbage');
 addEventListeners('bookshelf');
+addEventListeners('stove');
+addEventListeners('imece');
+addEventListeners('collectivework');
+addEventListeners('lacecurtain');
+addEventListeners('dinnertable');
+addEventListeners('GK1');
+addEventListeners('GK2');
+addEventListeners('GK3');
+addEventListeners('GK4');
+addEventListeners('GK5');
+addEventListeners('GK6');
+addEventListeners('GK7');
+addEventListeners('GK8');
