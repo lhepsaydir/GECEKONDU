@@ -59,6 +59,8 @@ function addMouseOverEvent(e) {
     showElement("YS1_popover")
   } else if (hoveredItemId === "YS2") {
     showElement("YS2_popover")
+  } else if (hoveredItemId === "YS3") {
+    showElement("YS3_popover")
 
   } else if (hoveredItemId === "gecekondu_image") {
     showElement("gecekondu_description")
@@ -127,6 +129,8 @@ function addMouseOutEvent(e) {
     hideElement("YS1_popover")
   } else if (hoveredItemId === "YS2") {
     hideElement("YS2_popover")
+  } else if (hoveredItemId === "YS3") {
+    hideElement("YS3_popover")
 
   } else if (hoveredItemId === "gecekondu_image") {
     hideElement("gecekondu_description")
