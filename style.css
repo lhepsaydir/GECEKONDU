@@ -1,23 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
 
 body {
-  padding: 12px;
+  padding: 60px;
   margin: 0;
   font-family: 'Lora', serif;
 }
 
 p {
-  margin: 8px 0;
+  margin: 12px 0;
 }
 
 a {
-  margin: 8px 0;
+  margin: 12px 0;
   text-decoration: none;
   color: black;
 }
 
 a:hover {
-  text-decoration: underline;
+  color: blue;
 }
 
 /* ------------------- */
@@ -49,8 +49,8 @@ a:hover {
   position: fixed;
   bottom: 0;
   right: 0;
-  margin-right: 16px;
-  margin-bottom: 16px;
+  margin-right: 60px;
+  margin-bottom: 60pxpx;
   color: black;
 }
 
@@ -63,8 +63,8 @@ a:hover {
 /* ------------------- */
 .homepage_images_wrapper {
   width: 100%;
-  height: 300px;
-  margin-top: 100px;
+  height: 320px;
+  margin-top: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -83,7 +83,8 @@ a:hover {
 }
 
 .homepage_descriptions_wrapper {
-  width: 80%;
+  width: 50%;
   text-align: justify;
-  padding-top: 12px;
+  padding-top: 60px;
+  radial-gradent:(#6495ed,	#ffffff );
 }
