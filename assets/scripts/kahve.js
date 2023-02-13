@@ -3,3 +3,6 @@ addEventListeners('KH2');
 addEventListeners('kahvetable');
 addEventListeners('playingokey');
 addEventListeners('wallart');
+addEventListeners('entrance');
+
+

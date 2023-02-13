@@ -48,6 +48,8 @@ function addMouseOverEvent(e) {
     showElement("playingokey_popover")
   } else if (hoveredItemId === "wallart") {
     showElement("wallart_popover")
+  } else if (hoveredItemId === "entrance") {
+    showElement("entrance_popover") 
 
   } else if (hoveredItemId === "explosion") {
     showElement("explosion_popover")
@@ -118,6 +120,8 @@ function addMouseOutEvent(e) {
     hideElement("playingokey_popover")
   } else if (hoveredItemId === "wallart") {
     hideElement("wallart_popover")
+  } else if (hoveredItemId === "entrance") {
+    hideElement("entrance_popover") 
 
   } else if (hoveredItemId === "explosion") {
     hideElement("explosion_popover")
